@@ -1,0 +1,19 @@
+{
+  "name": "zaka-zaka_happy_hour_discord_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^2.4.1",
+    "discord.js": "^14.12.1",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2",
+    "node-html-parser": "^6.1.5"
+  },
+  "type": "module"
+}
