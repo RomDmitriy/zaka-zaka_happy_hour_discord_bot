@@ -61,7 +61,9 @@ function parseData(data) {
 
   let result = '';
   games.forEach(game => {
-    result += game.querySelector('.game-block-name').textContent + ' - <' + (game.getAttribute('href') || 'No link') + '>\n';
+    if (game.getAttribute('href')) {
+      result += '[' + game.querySelector('.game-block-name').textContent + '](' + (game.getAttribute('href')) + ')\n';
+    }
   });
   return result;
 }
